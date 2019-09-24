@@ -1,6 +1,3 @@
-package Project;
-
-
 import java.util.Scanner;
 public class day_finder
 {
@@ -23,7 +20,7 @@ public class day_finder
         
             Scanner sc=new Scanner(System.in);
 
-            System.out.println("\n\n\t\t\t\t\tEnter 1 to know about the program\n\t\t\t\t\tEnter 2 to start");
+            System.out.println("\n\n\t\t\t\t\tEnter 1 to know about the program\n\t\t\t\t\tEnter 2 to start\n\t\t\t\t\tEnter 0 to stop");
             
             opt=sc.nextInt();
             if(opt==1)
